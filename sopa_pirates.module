@@ -69,6 +69,7 @@ function sopa_pirates_filter($op, $delta = 0, $format = -1, $text = '') {
         $text = implode($chunks);
       }
       }
+      $text .= "<h5>Pirate Translation provided by <a href='https://github.com/decibelplaces/Sopa-Pirates-for-Drupal' target='_blank'>SOPA Pirates for Drupal Module</a></h5>";
       return $text;
     default:  
       return $text;
