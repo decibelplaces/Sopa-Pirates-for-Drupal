@@ -22,7 +22,7 @@ function sopa_pirates_filter($op, $delta = 0, $format = -1, $text = '') {
     case 'settings': 
       return _sopa_pirates_filter_settings();
     case 'process': 
-      
+      if (preg_match("/SOPA|Sopa|sopa|PIPA|Pipa|pipa/",$text)){
       // Invoke hook_captain(). Also allows other modules to alter our patterns.
       // Cache must be flushed for invocations of this hook to be felt.
       $patterns = array();
@@ -67,6 +67,7 @@ function sopa_pirates_filter($op, $delta = 0, $format = -1, $text = '') {
           }
         }
         $text = implode($chunks);
+      }
       }
       return $text;
     default:  
