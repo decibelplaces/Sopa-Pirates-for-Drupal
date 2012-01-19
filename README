@@ -7,5 +7,7 @@ For a demo, see http://netsperience.org/content/blog/test-sopa-pirates-drupal-mo
 
 forked by decibel.places from original module created by Richard Eriksson: http://drupal.org/project/pirate
 
+this module repository: https://github.com/decibelplaces/Sopa-Pirates-for-Drupal
+
 Credits go to Richard Eriksson (http://www.richarderiksson.com/) and to 
 Dougal Campbell (http://dougal.gunters.org/) for his word list (and similar Wordpress filter)
